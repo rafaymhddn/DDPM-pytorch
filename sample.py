@@ -8,6 +8,7 @@ from tqdm import tqdm
 from model2 import Unet
 from noise_schedular import LinearNoiseScheduler
 
+# https://github.com/explainingai-code/DDPM-Pytorch
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
